@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include "binario.h"
 using namespace std;
 
 string decimalParaBinario(int numero){
