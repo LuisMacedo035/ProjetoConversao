@@ -2,7 +2,6 @@
 #include <string>
 #include <fstream>
 #include "binario.h"
-#include "durelli.h"
 using namespace std;
 
 char valorParaCaractere(int valor) {
