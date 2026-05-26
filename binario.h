@@ -17,4 +17,15 @@ string octalParaHexa(string octal);
 
 bool validacao(string numero, int base);
 
+char valorParaCaractere(int valor);
+string parteInteira(int numero, int base);
+string parteFracionaria(double fracao, int base, bool &truncado);
+
+string decimalParaBinarioPasso(int numero);
+
+void modoBatch();
+void modoQuiz();
+void calculadoraMaximos();
+
+
 #endif
