@@ -16,3 +16,5 @@ string binarioParaHexa(string binario);
 string octalParaHexa(string octal);
 
 bool validacao(string numero, int base);
+
+#endif
