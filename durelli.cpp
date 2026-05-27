@@ -170,8 +170,21 @@ void modoQuiz() {
 
         string valor;
 
-        // transforma o número para a base de origem
-        valor = deDecimal(numero, baseOrigem);
+        if (baseOrigem == 2) {
+    valor = decimalParaBinario(numero);
+}
+
+        if (baseOrigem == 8) {
+    valor = decimalParaOcta(numero);
+}
+
+        if (baseOrigem == 10) {
+    valor = to_string(numero);
+}
+
+        if (baseOrigem == 16) {
+    valor = decimalParaHexa(numero);
+}
 
 
         cout << "\n--------------------------------" << endl;
@@ -193,7 +206,23 @@ void modoQuiz() {
         cin >> resposta;
 
 
-        string correta = deDecimal(numero, baseDestino);
+        string correta;
+
+if (baseDestino == 2) {
+    correta = decimalParaBinario(numero);
+}
+
+if (baseDestino == 8) {
+    correta = decimalParaOcta(numero);
+}
+
+if (baseDestino == 10) {
+    correta = to_string(numero);
+}
+
+if (baseDestino == 16) {
+    correta = decimalParaHexa(numero);
+}
 
 
         if (resposta == correta) {
