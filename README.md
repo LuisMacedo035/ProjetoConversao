@@ -1,15 +1,15 @@
 # Conversor de Bases Numéricas
 
-## 👥 Dupla
+## Dupla
 - Luís Miguel Macedo  
 - Mirella Militani  
 
-## 💻 Linguagem
+##  Linguagem escolhida
 - C++
 
 ---
 
-## 📌 Sobre o projeto
+## Sobre o projeto
 
 Sistema que converte números entre bases:
 
@@ -27,7 +27,7 @@ Inclui também:
 
 ---
 
-## 🚀 Como compilar
+## Como compilar
 
 ```bash
 g++ main.cpp binario.cpp durelli.cpp -o programa
@@ -59,7 +59,7 @@ Após compilar e rodar o programa, o menu aparece na tela. O usuário escolhe um
 
 ---
 
-## 🔢 Exemplo 1 - Conversão normal
+##  Exemplo 1 - Conversão normal
 
 Entrada:
 - Número: 1011
@@ -71,7 +71,7 @@ Saída:
 
 ---
 
-## 🪜 Exemplo 2 - Passo a passo
+##  Exemplo 2 - Passo a passo
 
 Entrada:
 - Número: 13 (decimal)
@@ -86,7 +86,7 @@ Resultado final: 1101
 
 ---
 
-## 📂 Exemplo 3 - Batch (arquivo)
+##  Exemplo 3 - Batch (arquivo)
 
 entrada.csv:
 
@@ -102,7 +102,7 @@ saida.csv gerado:
 
 ---
 
-## 🎮 Exemplo 4 - Quiz
+## Exemplo 4 - Quiz
 
 Sistema mostra:
 
@@ -116,7 +116,7 @@ Correto!
 
 ---
 
-## 🧠 Exemplo 5 - Máximos
+##  Exemplo 5 - Máximos
 
 Entrada:
 k = 8
