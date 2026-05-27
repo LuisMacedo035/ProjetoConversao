@@ -133,4 +133,3 @@ Hexadecimal: FF
 - Os arquivos `entrada.csv` e `saida.csv` precisam estar na mesma pasta do executável.
 - O sistema não possui validação avançada de erros no arquivo de entrada (linhas inválidas podem gerar comportamento incorreto).
 - O modo quiz usa geração aleatória simples com `rand()`, podendo repetir números ou padrões.
-- O programa não trata entradas extremamente grandes (podendo haver limitação por tipo `int` em algumas funções).
