@@ -158,14 +158,16 @@ void modoQuiz() {
 
         int numero = rand() % limite + 1;
 
-        int baseOrigem = rand() % 15 + 2;
+        int bases[4] = {2, 8, 10, 16};
 
-        int baseDestino = rand() % 15 + 2;
+int baseOrigem = bases[rand() % 4];
+
+int baseDestino = bases[rand() % 4];
 
 
         while (baseDestino == baseOrigem) {
-            baseDestino = rand() % 15 + 2;
-        }
+            baseDestino = bases[rand() % 4];
+}
 
 
         string valor;
